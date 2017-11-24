@@ -21,7 +21,7 @@ public class TTSegmentedControl: UIView {
     
     @IBInspectable open var containerBackgroundColor: UIColor = TTSegmentedControl.UIColorFromRGB(0xF4F4F4)
     @IBInspectable open var thumbColor: UIColor = UIColor.clear
-    @IBInspectable open var thumbGradientColors: [UIColor]? = [TTSegmentedControl.UIColorFromRGB(0xFFE900),TTSegmentedControl.UIColorFromRGB(0xFFB400)]
+    @IBInspectable open var thumbGradientColors: [UIColor]? = [TTSegmentedControl.UIColorFromRGB(0x090B15),TTSegmentedControl.UIColorFromRGB(0x090B15)]
     @IBInspectable open var thumbShadowColor: UIColor = TTSegmentedControl.UIColorFromRGB(0x9B9B9B)
     @IBInspectable open var useShadow:Bool = true
     
@@ -43,7 +43,7 @@ public class TTSegmentedControl: UIView {
         var options:UIViewAnimationOptions = .curveEaseInOut
     }
     
-    open var itemTitles: [String] = ["Item1", "Item2", "Item3"]
+    open var itemTitles: [String] = [" ", " "]
     
     var attributedDefaultTitles: [NSAttributedString]!
     var attributedSelectedTitles: [NSAttributedString]!
